@@ -126,7 +126,7 @@ function Applicants() {
    📄 <b>Resume:</b>
 
    <a
-    href={`http://localhost:5000/uploads/${app.applicant.resume}`}
+    href={`https://mern-job-portal-5ph0.onrender.com/uploads/${app.applicant.resume}`}
     target="_blank"
     rel="noreferrer"
    >

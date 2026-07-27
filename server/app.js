@@ -14,7 +14,7 @@ const app = express();
 // CORS Middleware
 
 app.use(cors({
-    origin:["http://localhost:5173","https://mern-job-portal.vercel.app"],
+    origin:["http://localhost:5173","https://mern-job-portal-pearl.vercel.app"],
     credentials: true
 }));
 
