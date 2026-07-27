@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
+
 const authRoutes = require("./routes/authRoutes");
 const jobRoutes = require("./routes/jobRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
@@ -13,7 +14,7 @@ const app = express();
 // CORS Middleware
 
 app.use(cors({
-    origin: true,
+    origin:["http://localhost:5173","https://mern-job-portal.vercel.app"],
     credentials: true
 }));
 
