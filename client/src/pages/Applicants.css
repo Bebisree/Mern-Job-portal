@@ -1,0 +1,147 @@
+.applicants-page{
+
+ padding:40px;
+ background:#f8fafc;
+ min-height:80vh;
+
+}
+
+
+.applicants-page h1{
+
+ text-align:center;
+ margin-bottom:30px;
+ color:#0f172a;
+
+}
+
+
+
+.applicant-container{
+
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+ gap:25px;
+
+}
+
+
+
+.applicant-card{
+
+ background:white;
+ padding:25px;
+ border-radius:15px;
+ box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.applicant-header{
+
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+
+}
+
+
+
+.applicant-header h2{
+
+ color:#2563eb;
+ font-size:22px;
+
+}
+
+
+
+.status{
+
+ padding:6px 14px;
+ border-radius:20px;
+ font-size:14px;
+ font-weight:bold;
+
+}
+
+
+
+.Applied{
+
+ background:#dbeafe;
+ color:#1d4ed8;
+
+}
+
+
+.Reviewing{
+
+ background:#fef3c7;
+ color:#92400e;
+
+}
+
+
+.Interview{
+
+ background:#e0e7ff;
+ color:#4338ca;
+
+}
+
+
+.Selected{
+
+ background:#dcfce7;
+ color:#15803d;
+
+}
+
+
+.Rejected{
+
+ background:#fee2e2;
+ color:#b91c1c;
+
+}
+
+
+
+.details{
+
+ margin-top:20px;
+
+}
+
+
+
+.details p{
+
+ margin:12px 0;
+
+}
+
+
+
+.action{
+
+ margin-top:20px;
+
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+
+}
+
+
+
+.action select{
+
+ padding:8px 15px;
+ border-radius:8px;
+ border:1px solid #ccc;
+ cursor:pointer;
+
+}

@@ -1,0 +1,135 @@
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.profile-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 30px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-avatar {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+  background: #1976d2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.profile-role {
+  font-size: 13px;
+  color: #1976d2;
+  background: #e3f2fd;
+  padding: 2px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+.profile-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.profile-field label {
+  color: #888;
+  font-weight: 500;
+}
+
+.profile-field span {
+  color: #222;
+  font-weight: 500;
+}
+
+.resume-upload {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.upload-label {
+  display: block;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.file-input-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.file-btn {
+  background: #f0f4ff;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.file-name {
+  color: #777;
+  font-size: 14px;
+}
+.file-input {
+  display: block;
+  margin-bottom: 16px;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.upload-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.upload-btn:hover {
+  background: #145ea8;
+}

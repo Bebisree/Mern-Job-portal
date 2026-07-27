@@ -1,0 +1,156 @@
+.applications-container {
+  padding: 30px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.applications-title {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.application-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.application-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.application-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.application-header h2 {
+  font-size: 18px;
+  color: #222;
+  text-transform: capitalize;
+}
+
+.status-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.status-pending {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.status-accepted {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-rejected {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.application-info p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.application-info .icon {
+  margin-right: 6px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+  background: #fafafa;
+  border-radius: 12px;
+}
+
+.empty-state p {
+  font-size: 16px;
+}
+.status-tracker{
+
+display:flex;
+gap:10px;
+margin-top:20px;
+flex-wrap:wrap;
+
+}
+
+
+.status-tracker span{
+
+padding:8px 14px;
+border-radius:20px;
+background:#e5e7eb;
+font-size:13px;
+
+}
+
+
+.status-tracker .active{
+
+background:#16a34a;
+color:white;
+
+}
+
+
+
+.status-selected{
+
+background:#16a34a !important;
+color:white;
+
+}
+
+
+.status-interview{
+
+background:#2563eb !important;
+color:white;
+
+}
+
+
+.status-reviewing{
+
+background:#f59e0b !important;
+color:white;
+
+}
+
+
+.status-applied{
+
+background:#64748b !important;
+color:white;
+
+}
+
+
+.status-rejected{
+
+background:#dc2626 !important;
+color:white;
+
+}
